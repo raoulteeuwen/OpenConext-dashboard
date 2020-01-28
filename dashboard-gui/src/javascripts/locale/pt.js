@@ -379,12 +379,12 @@ I18n.translations.pt = {
         rejected_without_interaction_title: "Connection failed!",
         rejected_without_interaction_subtitle: "Something went wrong while connecting.", // TODO: change text
         done_without_interaction_title: "Connection established!", // TODO: check text. translate if text is sufficient
-        done_without_interaction_subtitle: "You can make use of it now.", // TODO: check text. translate if text is sufficient
+        done_without_interaction_subtitle: "No extra action necessary: you and your users can login at this service right now, using your institutional account.", // TODO: check text. translate if text is sufficient
         forward_permission: {
             after: " para {{app}}.",
             before: "SURFnet tem permissões para encaminhar ",
         },
-        info_connection_without_interaction: "This service provider allows institutions to connect immediately. There is no need to wait for an invitation to be accepted.", // TODO: translate
+        info_connection_without_interaction: "This service provider allows institutions to connect immediately. No extra actions from for example the federation operator are needed: you can use the service right away.", // TODO: translate
         info_sub_title: "Pode ativar uma ligação neste Dashboard. Recomendamos que verifique a lista de verificações e analise a informação específica desta aplicação antes de a ativar.",
         info_sub_invite_title: "Pode aceitar o convite para ativar uma ligação. Recomendamos que verifique a lista de verificações e analise a informação específica desta aplicação antes de a ativar.",
         info_title: "Ativar ligação",
