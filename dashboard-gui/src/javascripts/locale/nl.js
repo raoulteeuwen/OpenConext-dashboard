@@ -385,12 +385,12 @@ I18n.translations.nl = {
         rejected_without_interaction_title: "Koppeling niet geslaagd!",
         rejected_without_interaction_subtitle: "Er is iets fout gegaan bij de koppeling.", // TODO: change text
         done_without_interaction_title: "Service gekoppeld!", // TODO: check text
-        done_without_interaction_subtitle: "Er kan meteen gebruik van worden gemaakt.", // TODO: check text
+        done_without_interaction_subtitle: "Er is geen extra actie nodig: jij en je gebruikers kunnen nu gelijk met je instellingsaccount op de service inloggen.", // TODO: check text
         forward_permission: {
             after: " door te sturen naar {{app}}.",
             before: "SURFnet heeft toestemming om de ",
         },
-        info_connection_without_interaction: "Deze dienstverlener staat instellingen toe om meteen te koppelen. U hoeft dus niet te wachten tot een uitnodiging wordt geaccepteerd.",
+        info_connection_without_interaction: "Deze dienstverlener staat instellingen toe om meteen te koppelen: er zijn geen extra handelingen van b.v. SURF nodig. U kunt gelijk aan de slag.",
         info_sub_title: "Je kunt een verbinding activeren vanuit dit dashboard. We adviseren je om de checklist na te lopen en de specifieke informatie over deze service door te nemen voordat je een verbinding activeert.",
         info_sub_invite_title: "Je kunt de uitnodiging accepteren. We adviseren je om de checklist na te lopen en de specifieke informatie over deze service door te nemen voordat je een verbinding activeert.",
         info_title: "Verbinding activeren",
