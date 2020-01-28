@@ -383,12 +383,12 @@ I18n.translations.en = {
         rejected_without_interaction_title: "Connection failed!",
         rejected_without_interaction_subtitle: "Something went wrong while connecting.", // TODO: change text
         done_without_interaction_title: "Connection established!", // TODO: check text
-        done_without_interaction_subtitle: "You can make use of it now.", // TODO: check text
+        done_without_interaction_subtitle: "No extra action necessary: you and your users can login at this service right now, using your institutional account.", // TODO: check text
         forward_permission: {
             after: " to {{app}}.",
             before: "SURFnet has permission to forward the ",
         },
-        info_connection_without_interaction: "This service provider allows institutions to connect immediately. There is no need to wait for an invitation to be accepted.",
+        info_connection_without_interaction: "This service provider allows institutions to connect immediately. No extra actions from for example the federation operator are needed: you can use the service right away.",
         info_sub_title: "You can activate a connection from this dashboard. We advise you to follow the checklist and check the specific information for this app before you activate.",
         info_sub_invite_title: "You can accept the invite to connect. We advise you to follow the checklist and check the specific information for this app before you activate.",
         info_title: "Activate connection",
