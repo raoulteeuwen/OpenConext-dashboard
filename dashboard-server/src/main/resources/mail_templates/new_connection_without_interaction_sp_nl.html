@@ -1,28 +1,28 @@
 {{> header.html}}
 <p>
-    Beste,
+    Hello.
 </p>
 <p>
-    Als dienstaanbieder staat u instellingen op SURFconext toe om uw dienst te koppelen zonder uw toestemming. U ontvangt deze email
-    omdat u ervoor gekozen heeft om wel emails te willen ontvangen bij nieuwe koppelingen.
+    As service provider you allow Dutch institutions connected via SURFconext to connect your service without your approval.
+    You are receiving this email since you have opted to get notified by email when a new institution connects to your service.
 </p>
 
 <p>
-    <strong>Instelling {{idpName}} heeft uw dienst {{spName}} (met entityID="{{spEntityID}}") gekoppeld.</strong>
+    <strong>Institution {{idpName}} has connected you service {{spName}} (with entityID="{{spEntityID}}").</strong>
 </p>
 
 {{#hasEmailContactPerson}}
-<p>{{emailContactPerson}} van {{idpName}} heeft de koppeling geinitieerd tussen deze IdP en uw service {{spName}}.</p>
+<p>{{emailContactPerson}} from {{idpName}} has initiated this connection.</p>
 {{/hasEmailContactPerson}}
 
 {{#hasComments}}
-<p>Opmerking van de {{idpName}} verantwoordelijke:</p>
+<p>Comments added by the {{idpName}} institution:</p>
 <p style="font-style: italic">{{comments}}</p>
 {{/hasComments}}
 
 <p>
-    <strong>Hulp nodig?</strong><br>
-    Neem contact op met <a href="mailto:support@surfconext.nl?subject=SP {{spName}} vraag over automatische koppeling met {{idpName}})">support@surfconext.nl</a> als u vragen hebt over deze koppeling.
+    <strong>Questions or need help?</strong><br>
+    You can also always contact <a href="mailto:support@surfconext.nl?subject=SP {{spName}} about automatic connection with {{idpName}})">support@surfconext.nl</a> in case you have questions about this connection.
 </p>
 
 {{> closer.html}}
